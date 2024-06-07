@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Illic">
+   <title>Zusammenfassung Modul 293</title>
+   <style>
+       body {
+           padding-top: 70px; /* Höhe der Navbar */
+       }
+   </style>
+</head>
+<body>
+<header>
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Modul 293</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#lu01">LU 01</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu02">LU 02</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu03">LU 03</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu04">LU 04</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+<div class="container">
+   <h1>Zusammenfassung Modul 293</h1>
+
+   <div id="lu01">
+
+      <br>
+      <br>
+      <br>
+
+      <!-- Inhalt von LU01 -->
+      <p>
+      <h3> In der Learningunite 01 gibt es folgende Themen:</h3> <br>
+      - HTML <br>
+      - Werkzeuge <br>
+      - Einstellungen von WebStorm
+
+      <h4>HTML Grundlagen</h4> <br>
+      <p><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage kurz HTML ist einer der verbreitesten
+         Auszeichnungssprachen.
+         Mit HTML werden Websiten erstellt.<br>
+         Zu HTML geh&ouml;rt noch das Element, ein Tag, die Attribute und CSS dazu. Die Elemente sind die Bausteine von
+         HTML und wird
+         durch einen Tag makiert. Ein Element kann noch weitere verschachtelte Elemente enthalten.
+         Ein Tag, deutsch Markierung, ist ein Schl&uuml;sselwort von HTML. Es wird zum makieren von Elementen gebraucht
+         und wird
+         zwischen spitzen klammern geschrieben, hinzu kommt, dass sie meistens geschlossen werde m&uuml;ssen, Bsp. <
+         body > < \body >
+         Attribute kommen nur innerhalb eines Tags und erhalten Angaben zur Verarbeitung eines Tags.
+         Um den Inhalt zu gestalten braucht man CSS (<b>C</b>ascanding <b>S</b>tyle <b>S</b>heets) f&uuml;r die
+         Darstellung.
+
+         <br><br><br>
+
+
+
+   </div>
+
+   <div id="lu02">
+
+      <br>
+      <br>
+      <br>
+
+      <!-- Inhalt von LU02 -->
+      <p>
+      <h3>In der Learningunit 02 geht es um den Aufbau einer HTML-Datei</h3>
+      < !DOCTYPE html><br>
+      Auf der ersten Zeile legen wir die Dokumentenart (engl. Document Type Definition (DTD) fest. Durch den <
+      !DOCTYPE html> weiss der Browser, wie er diese Webseite darstellen soll.
+      <br><br>
+      DOCTYPE sieht einem HTML-Tag ähnlich, ist aber kein HTML-Tag. Es gibt zum Beispiel kein schliessendes Tag.
+      <br><br>
+      < html> ... < /html><br>
+      Das ganze HTML-Dokument muss zwischen diesen beiden Tags stehen. Für die Benutzbarkeit der Seite, muss das
+      Attribut lang=?? angegeben werden.
+      <br><br>
+      < head> ... < /head><br>
+      Der head-Block enthält Informationen über den Inhalt der Seite. Diese Angaben werden im Webbrowser nicht
+      angezeigt.
+      <br><br>
+      Die Angabe eines Titels (< title>…< /title>) ist zwingend.<br>
+      Durch die Angabe der Zeichencodierung (< meta charset="utf-8">) vermeiden wir Fehler bei der Darstellung von
+      Umlauten und Sonderzeichen.
+      <br><br>
+      < body> ... < /body><br>
+      Der Inhalt unserer Webseite wird im body-Block geschrieben. Dieser Bereich des HTML-Dokuments wird vom Browser
+      angezeigt.
+      <br><br>
+      < header> und < footer><br>
+
+      <br>
+      Wie ein Worddokument haben auch Webseiten in der Regel eine Kopf- und Fusszeile. Diese enthalten Logos, Name der
+      Seite,
+      Copyright, … Besonders bei einem Webauftritt mit mehreren Seiten helfen einheitliche Kopf- und Fusszeilen dem
+      Betrachter bei der Orientierung.
+
+      <br>
+      <br>
+      < nav><br>
+      Siehe auch selfhtml - nav<br>
+      Das Element < nav> umschliesst die Navigation unseres Webauftritts. Es wird häufig innerhalb von < head>
+      platziert.
+      <br><br>
+      < main><br>
+      Der Inhalt unserer Webseite wird innerhalb von < main> geschrieben. Dieser Bereich kann durch < article> und <
+      section>
+      weiter unterteilt werden.
+      <br><br>
+      < article><br>
+      Ein Artikel stellt einen in sich geschlossenen Teil des Inhalts dar. Dieser kann aus mehreren Abschnitten (<
+      section>) bestehen.
+      <br><br>
+      < section>
+      <br>
+      Das Element < section> bezeichnet einen Abschnitt innerhalb eines Artikels.
+
+      <br>
+      <br>
+
+      Dabei gibt es noch eine Vorlage, die man Personalisieren kann.
+
+      <br>
+      <br>
+      <br>
+
+
+   </div>
+
+   <div id="lu03">
+      <!-- Inhalt von LU03 -->
+
+      <br>
+      <br>
+      <br>
+
+      <p>
+      <h3> In der Learningunit 03 geht es um Bl&ouml;cke und Inhalte, sowie die Struktur</h3>
+
+      <h5>Die Struktur</h5>
+      Sie werden hauptsächlich auf 2 Arten von HTML-Elementen stoßen:<br>
+
+      Block-Elemente wie:<br>
+
+      Absätze < p><br>
+      Listen: ungeordnete (mit Aufzählungspunkten) < ul> oder geordnete Listen (mit Zahlen) < ol><br>
+      Überschriften: von der 1. Ebene < h1> bis zur 6. Ebene < h6><br>
+      artikel < artikel><br>
+      abschnitte < section><br>
+      Inline-Elemente wie:<br>
+      <br>
+      Links < a><br>
+      hervorgehobene Wörter < em><br>
+      wichtige Wörter < strong><br>
+      kurze Zitate < q><br>
+      Block-Elemente dienen dazu, die wichtigsten Teile Ihrer Seite zu strukturieren, indem sie Ihren Inhalt in
+      zusammenhängende Blöcke unterteilen.<br>
+      <br>
+      Inline-Elemente dienen dazu, einen Teil eines Textes zu differenzieren, um ihm eine bestimmte Funktion oder
+      Bedeutung zu geben.
+      Inline-Elemente bestehen in der Regel aus einem einzigen oder wenigen Wörtern.<br>
+      <br><br><br>
+
+      <h5>Beispiele von Elemente</h5>
+
+      h1 bis h6-Element<br>
+
+      Die Tags < h1> bis < h6> werden zur Definition von HTML-Überschriften verwendet. < h1> definiert die wichtigste
+      Überschrift.
+      < h6> definiert die unwichtigste Überschrift.<br>
+
+      Hinweis: Verwenden Sie nur eine < h1> pro Seite - diese sollte die Hauptüberschrift/das Hauptthema für die
+      gesamte Seite darstellen.
+      Überspringen Sie auch keine Überschriftenebenen - beginnen Sie mit < h1>, verwenden Sie dann < h2> und so
+      weiter.
+
+      <br>
+      <br>
+
+      div-Element
+      <br>
+      Es funktioniert wie ein Blockelement, das die gesamte Breite des Bildschirms einnimmt und immer in einer neuen
+      Zeile beginnt.
+      Der div-Tag definiert eine Unterteilung oder einen Abschnitt in einem HTML-Dokument. Das < div>-Tag wird als
+      Container für HTML-Elemente verwendet,
+      die dann mit CSS gestaltet oder mit JavaScript manipuliert werden. Jede Art von Inhalt kann in das < div>-Tag
+      eingefügt werden!
+      <br><br>
+
+
+      p-Element
+      <br>
+      Normale Texte werden auf Webseiten in Absätzen geschrieben. Für jeden Textabschnitt wird ein Absatz erzeugt
+      und große Texte können so in sinnvolle Abschnitte unterteilt werden. Um mit HTML einen Absatz zu erzeugen,
+      verwendet man den < p>-Tag.
+      Der Buchstabe P ist von Paragraph abgeleitet und das bedeutet Absatz.
+
+      <br>
+      <br>
+
+
+      table-Element
+      <br>
+      Eine Tabelle wird verwendet, um Daten in einem Tabellenformat darzustellen, das einen Tabellenkopf, einen
+      Tabellenkörper
+      mit einer Tabellenzeile und eine Tabellenspalte umfasst.
+
+      Der < table>-Tag definiert dazu eine HTML-Tabelle. Darin können eines oder mehrere < tr>-, < th>- und <
+      td>-Elemente vorkommen.
+      Das < tr>-Element definiert eine Tabellenzeile, das < th>-Element definiert eine Tabellenüberschrift, und das <
+      td>-Element definiert eine Tabellenzelle.
+
+      Weiter kann eine HTML-Tabelle kann auch < caption>-, < colgroup>-, < thead>-, < tfoot>- und < tbody>-Elemente
+      enthalten, mehr dazu bei w3school.
+
+      <br><br>
+
+      <h5> Beispiele von Inline-Elementen</h5>
+
+      span-Element<br>
+      Der < span>-Tag ist ein Inline-Container, der zur Kennzeichnung eines Textteils oder eines Teils eines Dokuments
+      verwendet wird.
+      Er lässt sich leicht mit CSS gestalten oder mit JavaScript unter Verwendung des class- oder id-Attributs
+      manipulieren.
+      Der < span>-Tag ist dem < div>-Element sehr ähnlich, aber < div> ist ein Block-Level-Element und < span> ein
+      Inline-Element.
+
+
+      <br><br>
+
+      a-Element<br>
+      Der < a>-Tag definiert einen Hyperlink, der verwendet wird, um von einer Seite auf eine andere zu verlinken.
+      Das wichtigste Attribut des < a>-Elements ist das href-Attribut, das das Ziel des Links angibt.
+      <br>
+      Standardmäßig werden Links in allen Browsern wie folgt dargestellt:
+      <br>
+      <ul>
+         Ein nicht besuchter Link ist unterstrichen und blau
+         Ein besuchter Link ist unterstrichen und lila
+         Ein aktiver Link ist unterstrichen und rot.
+         Live Preview
+      </ul>
+      <br><br>
+
+      img-Element<br>
+      Der < img>-Tag wird verwendet, um ein Bild in eine HTML-Seite einzubetten.
+      Bilder werden technisch gesehen nicht in eine Webseite eingefügt; Bilder werden mit Webseiten verknüpft.
+      Der < img>-Tag schafft einen Bereich für das referenzierte Bild.
+      Der < img>-Tag hat zwei erforderliche Attribute:
+      src - Gibt den Pfad zu dem Bild an alt - Gibt einen alternativen Text für das Bild an, falls das Bild aus
+      irgendeinem Grund nicht angezeigt werden kann. Hinweis: Geben Sie auch immer die Breite (width) und Höhe
+      (height) eines Bildes an. Wenn Breite und Höhe nicht angegeben werden, kann die Seite beim Laden des Bildes
+      flackern.
+      <br>
+      Tipp: Um ein Bild mit einem anderen Dokument zu verknüpfen, verschachteln Sie einfach den < img>-Tag in einen <
+      a>-Tag.
+      <br><br>
+
+   </div>
+
+   <div id="lu04">
+      <!-- Inhalt von LU04 -->
+
+      <br>
+      <br>
+      <br>
+
+      <p>
+      <h3> In der Learningunit 04 geht es um Codingstyle und Validator</h3>
+      <h5>Elementnamen in Kleinbuchstaben schreiben </h5>
+      HTML erlaubt die Mischung von Groß- und Kleinbuchstaben in Elementnamen.
+
+      Wir empfehlen jedoch, Elementnamen in Kleinbuchstaben zu verwenden, denn:
+
+      <ul>
+         Die Vermischung von Groß- und Kleinbuchstaben sieht schlecht aus
+         Entwickler verwenden normalerweise Kleinbuchstaben
+         Kleinbuchstaben sehen sauberer aus
+         Kleinschreibung ist einfacher zu schreiben
+      </ul>
+
+      <h5>Kleinbuchstaben für Attributnamen verwenden</h5>
+      HTML erlaubt die Mischung von Groß- und Kleinbuchstaben in Attributnamen.
+
+      Wir empfehlen jedoch die Verwendung von Attributnamen in Kleinbuchstaben, denn:
+
+      <ul>
+         Die Vermischung von Groß- und Kleinbuchstaben sieht schlecht aus
+         Entwickler verwenden normalerweise Kleinbuchstaben
+         Kleinbuchstaben sehen sauberer aus
+         Kleinschreibung ist einfacher zu schreiben
+      </ul>
+
+
+      <h5>Attributwerte immer in Hochkomma setzen</h5>
+      HTML erlaubt Attributwerte ohne Hochkomma1) oder Anführungszeichen.
+
+
+      <ul>
+         Entwickler sind es sich gewohnt Attributwerte in Hochkomma zu setzen
+         in Hochkomma gesetzte Werte sind leichter zu lesen
+         Sie MÜSSEN sowieso Hochkomma verwenden, wenn der Wert Leerzeichen enthält
+      </ul>
+
+      <h5> Alle HTML-Elemente schließen</h5>
+      In HTML müssen Sie nicht alle Elemente schließen (zum Beispiel das < p>-Element).
+
+      <h5>alt, width und height für Bilder angeben</h5>
+      Geben Sie immer das alt-Attribut für Bilder an. Dieses Attribut ist wichtig, wenn das Bild aus irgendeinem Grund
+      nicht angezeigt werden kann.
+
+      Geben Sie außerdem immer die Breite width und Höhe height von Bildern an. Dies verringert das Flackern,
+      da der Browser vor dem Laden Platz für das Bild reservieren kann.
+
+
+      <h5>Leerzeichen und Gleichheitszeichen</h5>
+      HTML erlaubt Leerzeichen um Gleichheitszeichen. Ein Text ohne Leerzeichen ist jedoch leichter zu lesen und
+      gruppiert Einheiten besser zusammen.
+
+
+      <h5>Vermeiden Sie lange Codezeilen</h5>
+      Wenn Sie einen HTML-Editor verwenden, ist es NICHT bequem, nach rechts und links zu scrollen, um den HTML-Code
+      zu lesen.
+
+      Versuchen Sie, zu lange Codezeilen zu vermeiden.
+
+      <h5>Leerzeilen und Einrückungen</h5>
+      Fügen Sie keine Leerzeilen, Leerzeich.en oder Einrückungen ohne Grund ein. Fügen Sie zur besseren Lesbarkeit
+      Leerzeilen ein, um große oder logische Codeblöcke zu trennen. Fügen Sie zur besseren Lesbarkeit zwei Leerzeichen
+      als Einrückung ein.
+
+      Hinweis: Webstorm ersetze einen Tabulator automatisch mit Leerzeichen
+
+
+      <h5>< title>-Element immer angeben</h5>
+      Das < title>-Element ist in HTML erforderlich.
+
+      Der Inhalt eines Seitentitels ist sehr wichtig für die Suchmaschinenoptimierung (SEO)! Der Seitentitel
+      wird von den Algorithmen der Suchmaschinen verwendet, um die Reihenfolge bei der Auflistung der Seiten in den
+      Suchergebnissen zu bestimmen.
+
+      Das < title>-Element:
+
+      <ul>
+         definiert einen Titel in der Browser-Symbolleiste
+         liefert einen Titel für die Seite, wenn sie zu den Favoriten hinzugefügt wird
+         zeigt einen Titel für die Seite in den Suchergebnissen der Suchmaschinen an
+         Versuchen Sie also, den Titel so genau und aussagekräftig wie möglich zu gestalten:
+      </ul>
+
+      < title>HTML Style Guide and Coding Conventions< /title>
+
+
+      <h5>HTML-Kommentare</h5>
+      Kurze Kommentare sollten in einer Zeile geschrieben werden, etwa so:
+
+      < !-- This is a comment -->
+
+
+   </div>
+
+   <div id="lu05">
+
+      <br>
+      <br>
+      <br>
+      <!-- Inhalt von LU05 -->
+      <p>Kommt noch</p>
+
+   </div>
+
+</div>
+
+<footer class="fixed-bottom bg-light">
+   <div class="container">
+      <p>Footer</p>
+   </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Illic">
+   <title>Zusammenfassung Modul 293</title>
+   <style>
+       body {
+           padding-top: 70px; /* Höhe der Navbar */
+       }
+   </style>
+</head>
+<body>
+<header>
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Modul 293</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#lu01">LU 01</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu02">LU 02</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu03">LU 03</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lu04">LU 04</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+<div class="container">
+   <h1>Zusammenfassung Modul 293</h1>
+
+   <div id="lu01">
+
+      <br>
+      <br>
+      <br>
+
+      <!-- Inhalt von LU01 -->
+      <p>
+      <h3> In der Learningunite 01 gibt es folgende Themen:</h3> <br>
+      - HTML <br>
+      - Werkzeuge <br>
+      - Einstellungen von WebStorm
+
+
+      <h4>HTML Grundlagen</h4> <br>
+      <p><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage kurz HTML ist einer der verbreitesten
+         Auszeichnungssprachen.
+         Mit HTML werden Websiten erstellt.<br>
+         Zu HTML geh&ouml;rt noch das Element, ein Tag, die Attribute und CSS dazu. Die Elemente sind die Bausteine von
+         HTML und wird
+         durch einen Tag makiert. Ein Element kann noch weitere verschachtelte Elemente enthalten.
+         Ein Tag, deutsch Markierung, ist ein Schl&uuml;sselwort von HTML. Es wird zum makieren von Elementen gebraucht
+         und wird
+         zwischen spitzen klammern geschrieben, hinzu kommt, dass sie meistens geschlossen werde m&uuml;ssen, Bsp. <
+         body > < \body >
+         Attribute kommen nur innerhalb eines Tags und erhalten Angaben zur Verarbeitung eines Tags.
+         Um den Inhalt zu gestalten braucht man CSS (<b>C</b>ascanding <b>S</b>tyle <b>S</b>heets) f&uuml;r die
+         Darstellung.
+
+         <br><br><br>
+
+
+
+   </div>
+
+   <div id="lu02">
+
+      <br>
+      <br>
+      <br>
+
+      <!-- Inhalt von LU02 -->
+      <p>
+      <h3>In der Learningunit 02 geht es um den Aufbau einer HTML-Datei</h3>
+      < !DOCTYPE html><br>
+      Auf der ersten Zeile legen wir die Dokumentenart (engl. Document Type Definition (DTD) fest. Durch den <
+      !DOCTYPE html> weiss der Browser, wie er diese Webseite darstellen soll.
+      <br><br>
+      DOCTYPE sieht einem HTML-Tag ähnlich, ist aber kein HTML-Tag. Es gibt zum Beispiel kein schliessendes Tag.
+      <br><br>
+      < html> ... < /html><br>
+      Das ganze HTML-Dokument muss zwischen diesen beiden Tags stehen. Für die Benutzbarkeit der Seite, muss das
+      Attribut lang=?? angegeben werden.
+      <br><br>
+      < head> ... < /head><br>
+      Der head-Block enthält Informationen über den Inhalt der Seite. Diese Angaben werden im Webbrowser nicht
+      angezeigt.
+      <br><br>
+      Die Angabe eines Titels (< title>…< /title>) ist zwingend.<br>
+      Durch die Angabe der Zeichencodierung (< meta charset="utf-8">) vermeiden wir Fehler bei der Darstellung von
+      Umlauten und Sonderzeichen.
+      <br><br>
+      < body> ... < /body><br>
+      Der Inhalt unserer Webseite wird im body-Block geschrieben. Dieser Bereich des HTML-Dokuments wird vom Browser
+      angezeigt.
+      <br><br>
+      < header> und < footer><br>
+
+      <br>
+      Wie ein Worddokument haben auch Webseiten in der Regel eine Kopf- und Fusszeile. Diese enthalten Logos, Name der
+      Seite,
+      Copyright, … Besonders bei einem Webauftritt mit mehreren Seiten helfen einheitliche Kopf- und Fusszeilen dem
+      Betrachter bei der Orientierung.
+
+      <br>
+      <br>
+      < nav><br>
+      Siehe auch selfhtml - nav<br>
+      Das Element < nav> umschliesst die Navigation unseres Webauftritts. Es wird häufig innerhalb von < head>
+      platziert.
+      <br><br>
+      < main><br>
+      Der Inhalt unserer Webseite wird innerhalb von < main> geschrieben. Dieser Bereich kann durch < article> und <
+      section>
+      weiter unterteilt werden.
+      <br><br>
+      < article><br>
+      Ein Artikel stellt einen in sich geschlossenen Teil des Inhalts dar. Dieser kann aus mehreren Abschnitten (<
+      section>) bestehen.
+      <br><br>
+      < section>
+      <br>
+      Das Element < section> bezeichnet einen Abschnitt innerhalb eines Artikels.
+
+      <br>
+      <br>
+
+      Dabei gibt es noch eine Vorlage, die man Personalisieren kann.
+
+      <br>
+      <br>
+      <br>
+
+
+
+   </div>
+
+   <div id="lu03">
+      <!-- Inhalt von LU03 -->
+
+      <br>
+      <br>
+      <br>
+
+      <p>
+      <h3> In der Learningunit 03 geht es um Bl&ouml;cke und Inhalte, sowie die Struktur</h3>
+
+      <h5>Die Struktur</h5>
+      Sie werden hauptsächlich auf 2 Arten von HTML-Elementen stoßen:<br>
+
+      Block-Elemente wie:<br>
+
+      Absätze < p><br>
+      Listen: ungeordnete (mit Aufzählungspunkten) < ul> oder geordnete Listen (mit Zahlen) < ol><br>
+      Überschriften: von der 1. Ebene < h1> bis zur 6. Ebene < h6><br>
+      artikel < artikel><br>
+      abschnitte < section><br>
+      Inline-Elemente wie:<br>
+      <br>
+      Links < a><br>
+      hervorgehobene Wörter < em><br>
+      wichtige Wörter < strong><br>
+      kurze Zitate < q><br>
+      Block-Elemente dienen dazu, die wichtigsten Teile Ihrer Seite zu strukturieren, indem sie Ihren Inhalt in
+      zusammenhängende Blöcke unterteilen.<br>
+      <br>
+      Inline-Elemente dienen dazu, einen Teil eines Textes zu differenzieren, um ihm eine bestimmte Funktion oder
+      Bedeutung zu geben.
+      Inline-Elemente bestehen in der Regel aus einem einzigen oder wenigen Wörtern.<br>
+      <br><br><br>
+
+      <h5>Beispiele von Elemente</h5>
+
+      h1 bis h6-Element<br>
+
+      Die Tags < h1> bis < h6> werden zur Definition von HTML-Überschriften verwendet. < h1> definiert die wichtigste
+      Überschrift.
+      < h6> definiert die unwichtigste Überschrift.<br>
+
+      Hinweis: Verwenden Sie nur eine < h1> pro Seite - diese sollte die Hauptüberschrift/das Hauptthema für die
+      gesamte Seite darstellen.
+      Überspringen Sie auch keine Überschriftenebenen - beginnen Sie mit < h1>, verwenden Sie dann < h2> und so
+      weiter.
+
+      <br>
+      <br>
+
+      div-Element
+      <br>
+      Es funktioniert wie ein Blockelement, das die gesamte Breite des Bildschirms einnimmt und immer in einer neuen
+      Zeile beginnt.
+      Der div-Tag definiert eine Unterteilung oder einen Abschnitt in einem HTML-Dokument. Das < div>-Tag wird als
+      Container für HTML-Elemente verwendet,
+      die dann mit CSS gestaltet oder mit JavaScript manipuliert werden. Jede Art von Inhalt kann in das < div>-Tag
+      eingefügt werden!
+      <br><br>
+
+
+      p-Element
+      <br>
+      Normale Texte werden auf Webseiten in Absätzen geschrieben. Für jeden Textabschnitt wird ein Absatz erzeugt
+      und große Texte können so in sinnvolle Abschnitte unterteilt werden. Um mit HTML einen Absatz zu erzeugen,
+      verwendet man den < p>-Tag.
+      Der Buchstabe P ist von Paragraph abgeleitet und das bedeutet Absatz.
+
+      <br>
+      <br>
+
+
+      table-Element
+      <br>
+      Eine Tabelle wird verwendet, um Daten in einem Tabellenformat darzustellen, das einen Tabellenkopf, einen
+      Tabellenkörper
+      mit einer Tabellenzeile und eine Tabellenspalte umfasst.
+
+      Der < table>-Tag definiert dazu eine HTML-Tabelle. Darin können eines oder mehrere < tr>-, < th>- und <
+      td>-Elemente vorkommen.
+      Das < tr>-Element definiert eine Tabellenzeile, das < th>-Element definiert eine Tabellenüberschrift, und das <
+      td>-Element definiert eine Tabellenzelle.
+
+      Weiter kann eine HTML-Tabelle kann auch < caption>-, < colgroup>-, < thead>-, < tfoot>- und < tbody>-Elemente
+      enthalten, mehr dazu bei w3school.
+
+      <br><br>
+
+      <h5> Beispiele von Inline-Elementen</h5>
+
+      span-Element<br>
+      Der < span>-Tag ist ein Inline-Container, der zur Kennzeichnung eines Textteils oder eines Teils eines Dokuments
+      verwendet wird.
+      Er lässt sich leicht mit CSS gestalten oder mit JavaScript unter Verwendung des class- oder id-Attributs
+      manipulieren.
+      Der < span>-Tag ist dem < div>-Element sehr ähnlich, aber < div> ist ein Block-Level-Element und < span> ein
+      Inline-Element.
+
+
+      <br><br>
+
+      a-Element<br>
+      Der < a>-Tag definiert einen Hyperlink, der verwendet wird, um von einer Seite auf eine andere zu verlinken.
+      Das wichtigste Attribut des < a>-Elements ist das href-Attribut, das das Ziel des Links angibt.
+      <br>
+      Standardmäßig werden Links in allen Browsern wie folgt dargestellt:
+      <br>
+      <ul>
+         Ein nicht besuchter Link ist unterstrichen und blau
+         Ein besuchter Link ist unterstrichen und lila
+         Ein aktiver Link ist unterstrichen und rot.
+         Live Preview
+      </ul>
+      <br><br>
+
+      img-Element<br>
+      Der < img>-Tag wird verwendet, um ein Bild in eine HTML-Seite einzubetten.
+      Bilder werden technisch gesehen nicht in eine Webseite eingefügt; Bilder werden mit Webseiten verknüpft.
+      Der < img>-Tag schafft einen Bereich für das referenzierte Bild.
+      Der < img>-Tag hat zwei erforderliche Attribute:
+      src - Gibt den Pfad zu dem Bild an alt - Gibt einen alternativen Text für das Bild an, falls das Bild aus
+      irgendeinem Grund nicht angezeigt werden kann. Hinweis: Geben Sie auch immer die Breite (width) und Höhe
+      (height) eines Bildes an. Wenn Breite und Höhe nicht angegeben werden, kann die Seite beim Laden des Bildes
+      flackern.
+      <br>
+      Tipp: Um ein Bild mit einem anderen Dokument zu verknüpfen, verschachteln Sie einfach den < img>-Tag in einen <
+      a>-Tag.
+      <br><br>
+
+
+   </div>
+
+   <div id="lu04">
+      <!-- Inhalt von LU04 -->
+
+      <br>
+      <br>
+      <br>
+
+      <p>
+      <h3> In der Learningunit 04 geht es um Codingstyle und Validator</h3>
+      <h5>Elementnamen in Kleinbuchstaben schreiben </h5>
+      HTML erlaubt die Mischung von Groß- und Kleinbuchstaben in Elementnamen.
+
+      Wir empfehlen jedoch, Elementnamen in Kleinbuchstaben zu verwenden, denn:
+
+      <ul>
+         Die Vermischung von Groß- und Kleinbuchstaben sieht schlecht aus
+         Entwickler verwenden normalerweise Kleinbuchstaben
+         Kleinbuchstaben sehen sauberer aus
+         Kleinschreibung ist einfacher zu schreiben
+      </ul>
+
+      <h5>Kleinbuchstaben für Attributnamen verwenden</h5>
+      HTML erlaubt die Mischung von Groß- und Kleinbuchstaben in Attributnamen.
+
+      Wir empfehlen jedoch die Verwendung von Attributnamen in Kleinbuchstaben, denn:
+
+      <ul>
+         Die Vermischung von Groß- und Kleinbuchstaben sieht schlecht aus
+         Entwickler verwenden normalerweise Kleinbuchstaben
+         Kleinbuchstaben sehen sauberer aus
+         Kleinschreibung ist einfacher zu schreiben
+      </ul>
+
+
+      <h5>Attributwerte immer in Hochkomma setzen</h5>
+      HTML erlaubt Attributwerte ohne Hochkomma1) oder Anführungszeichen.
+
+
+      <ul>
+         Entwickler sind es sich gewohnt Attributwerte in Hochkomma zu setzen
+         in Hochkomma gesetzte Werte sind leichter zu lesen
+         Sie MÜSSEN sowieso Hochkomma verwenden, wenn der Wert Leerzeichen enthält
+      </ul>
+
+      <h5> Alle HTML-Elemente schließen</h5>
+      In HTML müssen Sie nicht alle Elemente schließen (zum Beispiel das < p>-Element).
+
+      <h5>alt, width und height für Bilder angeben</h5>
+      Geben Sie immer das alt-Attribut für Bilder an. Dieses Attribut ist wichtig, wenn das Bild aus irgendeinem Grund
+      nicht angezeigt werden kann.
+
+      Geben Sie außerdem immer die Breite width und Höhe height von Bildern an. Dies verringert das Flackern,
+      da der Browser vor dem Laden Platz für das Bild reservieren kann.
+
+
+      <h5>Leerzeichen und Gleichheitszeichen</h5>
+      HTML erlaubt Leerzeichen um Gleichheitszeichen. Ein Text ohne Leerzeichen ist jedoch leichter zu lesen und
+      gruppiert Einheiten besser zusammen.
+
+
+      <h5>Vermeiden Sie lange Codezeilen</h5>
+      Wenn Sie einen HTML-Editor verwenden, ist es NICHT bequem, nach rechts und links zu scrollen, um den HTML-Code
+      zu lesen.
+
+      Versuchen Sie, zu lange Codezeilen zu vermeiden.
+
+      <h5>Leerzeilen und Einrückungen</h5>
+      Fügen Sie keine Leerzeilen, Leerzeich.en oder Einrückungen ohne Grund ein. Fügen Sie zur besseren Lesbarkeit
+      Leerzeilen ein, um große oder logische Codeblöcke zu trennen. Fügen Sie zur besseren Lesbarkeit zwei Leerzeichen
+      als Einrückung ein.
+
+      Hinweis: Webstorm ersetze einen Tabulator automatisch mit Leerzeichen
+
+
+      <h5>< title>-Element immer angeben</h5>
+      Das < title>-Element ist in HTML erforderlich.
+
+      Der Inhalt eines Seitentitels ist sehr wichtig für die Suchmaschinenoptimierung (SEO)! Der Seitentitel
+      wird von den Algorithmen der Suchmaschinen verwendet, um die Reihenfolge bei der Auflistung der Seiten in den
+      Suchergebnissen zu bestimmen.
+
+      Das < title>-Element:
+
+      <ul>
+         definiert einen Titel in der Browser-Symbolleiste
+         liefert einen Titel für die Seite, wenn sie zu den Favoriten hinzugefügt wird
+         zeigt einen Titel für die Seite in den Suchergebnissen der Suchmaschinen an
+         Versuchen Sie also, den Titel so genau und aussagekräftig wie möglich zu gestalten:
+      </ul>
+
+      < title>HTML Style Guide and Coding Conventions< /title>
+
+
+      <h5>HTML-Kommentare</h5>
+      Kurze Kommentare sollten in einer Zeile geschrieben werden, etwa so:
+
+      < !-- This is a comment -->
+
+
+
+   </div>
+
+   <div id="lu05">
+
+      <br>
+      <br>
+      <br>
+      <!-- Inhalt von LU05 -->
+      <p>Kommt noch</p>
+
+   </div>
+
+</div>
+
+<footer class="fixed-bottom bg-light">
+   <div class="container">
+      <p>Footer</p>
+   </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
